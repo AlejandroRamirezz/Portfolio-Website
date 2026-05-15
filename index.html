@@ -318,6 +318,9 @@
             class="nav-link text-sm text-gray-400 font-medium"
             >Experience</a
           >
+          <a href="#projects" class="nav-link text-sm text-gray-400 font-medium"
+            >Projects</a
+          >
           <a
             href="#certifications"
             class="nav-link text-sm text-gray-400 font-medium"
@@ -386,6 +389,12 @@
           onclick="toggleMenu()"
           class="text-gray-400 hover:text-accent text-sm"
           >Experience</a
+        >
+        <a
+          href="#projects"
+          onclick="toggleMenu()"
+          class="text-gray-400 hover:text-accent text-sm"
+          >Projects</a
         >
         <a
           href="#certifications"
@@ -787,7 +796,7 @@
                   <span
                     class="text-xs text-gray-500 border border-dark-border rounded-full px-3 py-1 shrink-0"
                   >
-                    2025 – Present
+                    Jan 2026 – April 2026
                   </span>
                 </div>
                 <ul class="space-y-2.5 text-gray-400 text-sm mb-5">
@@ -915,9 +924,184 @@
     </section>
 
     <!-- ═══════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════ -->
+    <section
+      id="projects"
+      class="py-28 bg-dark-card border-y border-dark-border"
+    >
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16 reveal">
+          <p class="code-tag mb-3">&lt;projects /&gt;</p>
+          <h2 class="text-4xl font-black">Featured Projects</h2>
+          <div class="section-line"></div>
+          <p class="text-gray-500 mt-4 text-sm">
+            Things I've built — from iOS to backend automations.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5">
+          <!-- ── Project 1: Mis Mangas ── -->
+          <div class="card rounded-2xl p-7 reveal flex flex-col">
+            <div class="flex items-start justify-between mb-4">
+              <div class="text-3xl">📱</div>
+              <span
+                class="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-green-400 border border-green-900/60 rounded-full px-2.5 py-1"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+                Completed
+              </span>
+            </div>
+
+            <h3 class="font-bold text-white text-lg mb-1">
+              Mis Mangas Application
+            </h3>
+            <p class="text-accent text-xs font-semibold mb-3">
+              Swift Developer Program
+            </p>
+
+            <p class="text-gray-400 text-sm leading-relaxed mb-5 flex-1">
+              iOS application built in Swift with a strong emphasis on
+              concurrency, async operations, and clean separation between UI and
+              business logic.
+            </p>
+
+            <div class="flex flex-wrap gap-2 mb-5">
+              <span class="skill-tag">Swift</span>
+              <span class="skill-tag">SwiftUI</span>
+              <span class="skill-tag">SwiftData</span>
+              <span class="skill-tag">FastAPI</span>
+            </div>
+
+            <a
+              href="https://github.com/AlejandroRamirezz/MisMangasDeluxe"
+              target="_blank"
+              class="inline-flex items-center gap-2 text-sm text-accent font-semibold hover:opacity-80 transition mt-auto"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- ── Project 2: SI Trading Website ── -->
+          <div class="card rounded-2xl p-7 reveal flex flex-col">
+            <div class="flex items-start justify-between mb-4">
+              <div class="text-3xl">🌐</div>
+              <span
+                class="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-accent border border-accent/40 rounded-full px-2.5 py-1"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                In progress
+              </span>
+            </div>
+
+            <h3 class="font-bold text-white text-lg mb-1">
+              SI Trading — Website Redesign
+            </h3>
+            <p class="text-accent text-xs font-semibold mb-3">
+              Frontend + Backend rebuild
+            </p>
+
+            <p class="text-gray-400 text-sm leading-relaxed mb-5 flex-1">
+              Redesigned SI Trading's website to align their digital presence
+              with the company's strengths and goals — communicating their value
+              more clearly to prospective clients.
+            </p>
+
+            <div class="flex flex-wrap gap-2 mb-5">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">FastAPI</span>
+            </div>
+
+            <a
+              href="https://github.com/AlejandroRamirezz/SI-Trading-Website-Upgrade"
+              target="_blank"
+              class="inline-flex items-center gap-2 text-sm text-accent font-semibold hover:opacity-80 transition mt-auto"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              View on GitHub →
+            </a>
+          </div>
+
+          <!-- ── Project 3: SI Trading WhatsApp Chatbot ── -->
+          <div class="card rounded-2xl p-7 reveal flex flex-col">
+            <div class="flex items-start justify-between mb-4">
+              <div class="text-3xl">💬</div>
+              <span
+                class="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-accent border border-accent/40 rounded-full px-2.5 py-1"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                In progress
+              </span>
+            </div>
+
+            <h3 class="font-bold text-white text-lg mb-1">
+              SI Trading WhatsApp Chatbot
+            </h3>
+            <p class="text-accent text-xs font-semibold mb-3">
+              Sales conversion automation
+            </p>
+
+            <p class="text-gray-400 text-sm leading-relaxed mb-5 flex-1">
+              A WhatsApp chatbot that streamlines communication between sales
+              reps and clients — designed to boost conversion rates through
+              structured, automated conversation flows.
+            </p>
+
+            <div class="flex flex-wrap gap-2 mb-5">
+              <span class="skill-tag">Meta API</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">JSON</span>
+              <span class="skill-tag">Bash</span>
+            </div>
+
+            <a
+              href="https://github.com/AlejandroRamirezz/SI-Trading-Website-Upgrade"
+              target="_blank"
+              class="inline-flex items-center gap-2 text-sm text-accent font-semibold hover:opacity-80 transition mt-auto"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
      EDUCATION
 ═══════════════════════════════════════════ -->
-    <section class="py-16 bg-dark-card border-y border-dark-border">
+    <section class="py-16 bg-dark border-y border-dark-border">
       <div class="max-w-6xl mx-auto px-6">
         <div
           class="reveal flex flex-col md:flex-row gap-8 items-center card rounded-2xl p-8"
